@@ -1,0 +1,79 @@
+@import url();
+
+.welcome {
+    align-items: flex-start;
+    background-color: #FFFFFF;
+    border: 1px none;
+    cursor: pointer;
+    display: flex;
+    height: 800px;
+    overflow: hidden;
+    width: 360px;
+}
+
+.hidden, .hidden *{
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.overlap-group{
+    height: 1221px;
+    margin-left: -184px;
+    margin-top: -211px;
+    position: relative;
+    width: 712px;
+}
+
+.rectangle-7{
+    background-color: #FFFFFF;
+    height: 800px;
+    position: absolute;
+    top: 211px;
+    width: 360px;
+}
+
+.image-14{
+    height: 184px;
+    left: 266px;
+    position: absolute;
+    top: 436px;
+    width: 196px;
+}
+
+.ellipse-1{
+    background-color: #006847;
+    border-radius: 324px;
+    height: 468px;
+    left: 0;
+    position: absolute;
+    top: 753px;
+    width: 468px;
+    -webkit-border-radius: 324px;
+    -moz-border-radius: 324px;
+    -ms-border-radius: 324px;
+    -o-border-radius: 324px;
+}
+
+.ellipse-2 {
+    background-color: #ce1126;
+    border-radius: 200px;
+    height: 400px;
+    left: 312px;
+    position: absolute;
+    top: 0;
+    width: 400px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
+}
+
+.title{
+    color: black;
+    font-weight: 600;
+    left: 260px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 627px;
+}

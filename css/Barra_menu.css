@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --clr: #222327;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    background: #ffff;
+}
+
+.navigation{
+    position: relative;
+    width: 360px;
+    height: 70px;
+    background: #fff;
+    display: flex;
+    justify-content:flex-end;
+    align-items:end;
+    border-radius: 10px;
+    top: 747px;
+    box-shadow: 2px -2px 2px 1px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.navigation ul {
+    display: flex;
+    width: 360px;
+}
+
+.navigation ul li {
+    position: relative;
+    list-style: none;
+    width: 90px;
+    height: 70px;
+    /* z-index: 1; */
+}
+
+.navigation ul li.active a .icon{ /*.mark*/
+    margin: auto;
+    width: 60px;
+    height: 5px;
+    background-color: #006847;
+    border-radius: 0 0 25px 25px;
+    /* border: 20px solid #006847; */
+    color: #ffffff;
+    z-index: 3;
+    -webkit-border-radius: 0 0 25px 25px;
+    -moz-border-radius: 0 0 25px 25px;
+    -ms-border-radius: 0 0 25px 25px;
+    -o-border-radius: 0 0 25px 25px;
+}
+
+.navigation ul li a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+.navigation ul li a .icon {
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 2em;
+    text-align: center;
+    transition: 0.5s;
+    color: #8f8f8f;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.navigation ul li.active a .icon {
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 2em;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    transition: 0.5s;
+    color: #006847;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.navigation ul li a .text{
+    position: absolute;
+    color: var(--clr);
+    font-weight: 400;
+}
